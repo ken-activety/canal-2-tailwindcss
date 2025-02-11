@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canal-2-tailwindcss</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/index.css">
+</head>
+
+<body class="overflow-x-hidden bg-green-900">
+
+    <header class="flex justify-between pt-8 items-center bg-red-900 px-10">
+        <div>
+            <img src="./asset/image/logo.svg" alt="logo">
+        </div>
+        <nav class="flex gap-16 hidden md:block ">
+            <ul>
+                <li> <a href="#" class="links">Acceuil</a></li>
+            </ul>
+            <ul>
+                <li> <a href="#" class="links">Actualités</a></li>
+            </ul>
+            <ul>
+                <li> <a href="#" class="links">Programme</a></li>
+            </ul>
+            <ul>
+                <li> <a href="#" class="links">Direct</a></li>
+            </ul>
+        </nav>
+        <button class=" hidden md:block box-border p-3 px-8 rounded-full bg-green-900 ">Premium</button>
+        <div>
+            <button class=""><img src="./asset/image/menu.svg" alt="menu" class=" w-12 md:hidden"></button>
+        </div>
+    </header>
+
+    <menu class="px-6 flex flex-col">
+        <div class="flex flex-1 relative  md:block">
+            <img src="./asset/image/ngannou.svg" class="w-96 -h-96">
+            <div class="flex absolute gap-4 pt-40 pl-8 bg--900">
+                <div class="w-3 h-16 bg-green-900"></div>
+                <div class="flex flex-col gap-2 text-xs text-white">
+                    <h2>Il tape les gens pour vivre , françis <br> Nganou</h2>
+                    <p>Actu du 23 décembre 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-1 flex-col justify-evenly">
+            <div class="flex gap-2 items-center py-2">
+                <div class="w-2.5 h-8 bg-green-900"></div>
+                <h4 class="text-xs">À LA UNE DU JOUR</h4>
+            </div>
+
+            <div class=" flex items-center">
+                <div class="flex gap-8">
+                    <img src="./asset/image/childer.svg" alt="" class="w-44 h-36">
+                    <div class="flex flex-col gap-2 pt-6 text-xs">
+                        <h3 class="text-xs">L’école primaire de <br> melon dans le choc</h3>
+                        <p class="text-xs">Lundi matin, le sous prefet du <br> nyon-ekele est partie en <br> visite dans
+                            son village
+                            natale ....</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="w-94 border-solid border-1 gapy-8 border-black">
+            <div class="">
+                <div class="flex gap-8">
+                    <img src="./asset/image/images (5) 1.svg" alt="" class="w-44 h-36">
+                    <div class="flex flex-col gap-2 pt-6 text-xs">
+                        <h3>L’école primaire de <br> melon dans le choc</h3>
+                        <p>Lundi matin, le sous prefet du <br> nyon-ekele est partie en <br> visite dans son village
+                            natale ....</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="w-94 border-solid border-1 gapy-8 border-black">
+            <div class="">
+                <div class="flex gap-8">
+                    <img src="./asset/image/téléchargement (3) 1 copy.svg" alt="" class="w-44 h-36">
+                    <div class="flex flex-col gap-2 pt-6 text-xs">
+                        <h3>L’école primaire de <br> melon dans le choc</h3>
+                        <p>Lundi matin, le sous prefet du <br> nyon-ekele est partie en <br> visite dans son village
+                            natale ....</p>
+                    </div>
+                </div>
+            </div>
+    </menu>
+    <section class="flex bg-red-900 pt-8 overflow-y-auto gap-4 px-6  ">
+        <div class="">
+            <img src="./asset/image/201606-cmr-11-lpr-2 1.svg" alt="" class="">
+            <div class=" gap-2">
+                <p class="text-xs">Mardi , 10 Janvier 2025 10:30</p>
+                <h3 class="text-xs">Lutte contre le travail des <br> enfants , l’UNESCO réagit</h3>
+            </div>
+        </div>
+
+
+            <div class="">
+                <img src="./asset/image/images (6) 1.svg" alt="" class="">
+                <div class="">
+                    <p >Mardi , 10 Janvier 2025 10:30</p>
+                    <p class="text-xs">Mardi , 10 Janvier 2025 10:30</p>
+                    <h5 class="text-xs">The Game of Throne , Qui <br> sera le prochain ??</h5>
+                </div>
+            </div>
+
+                <div class="">
+                    <img src="./asset/image/abubaka.svg" alt="" class=" ">
+                    <div class="">
+                        <p class="text-xs">Mardi , 10 Janvier 2025 10:30</p>
+                        <h3 class="text-xs">Le lion sort de sa cage et <br> s’exprime la CAN </h3>
+                    </div>
+                </div>
+    </section>
+
+    <flex class="flex justify-center py-8">
+<h1 class="text-12">Suivez l’atualité en direct sur Canal 2 International</h1>
+    </flex>
+
+    <div class="flex justify-center  bg-green300 w-auto h-80 px-6">
+        <iframe class="w-full" src="https://www.youtube.com/embed/7DC7M4frzoQ"
+            title="AFFAIRE MARTINEZ ZOGO : Nouveau report au 23 Décembre 2024" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen c class="iframe" class=""></iframe>
+    </div>
+
+    <div class="flex justify-center px-8">
+        <h2>Retrouvez vos programmes préférés</h2>
+    </div>
+
+    <div>
+        <div  class="flex justify-center  bg-green300 w-auto h-80 px-6 pt-4">
+            <iframe class="w-full" src="https://www.youtube.com/embed/G9CvXDHegdo?list=PLFD4wfgwEhg-QUuJWQg-O9fM_WaDNuKsa" title="DR TENE en direct de CANAL MATIN ce Mercredi  13/07/2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+        </div>
+        <div>
+            <h2>CANAL MATIN</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad <br> minim veniam, quis nostrud</p>
+            <p>Du Lundi au vendredi sur Canal 2 international</p>
+            <div>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
